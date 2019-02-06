@@ -40,8 +40,7 @@ npm start
 ## Design Specifications
 
 ### Assets
-Mobile:
-Desktop:
+<a href="https://github.com/felipevila/responsive-nav/tree/master/assets">Design Assets</a>
 
 ### Measurements
 
