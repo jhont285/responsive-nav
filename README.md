@@ -1,4 +1,4 @@
-# Endava FE Challenge
+# Endava FE Responsive Nav Challenge
 
 ## Overview
 
@@ -39,8 +39,9 @@ npm start
 
 ## Design Specifications
 
-### Prototype
-https://invis.io/8AFZRC7Z7DR
+### Assets
+Mobile:
+Desktop:
 
 ### Measurements
 
