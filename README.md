@@ -1,5 +1,7 @@
 # Endava FE Responsive Nav Challenge
 
+[![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](http://forthebadge.com)
+
 ## Overview
 
 This challenge will have the intern build a site navigation driven by an AJAX request.
