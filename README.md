@@ -63,18 +63,18 @@ Font: https://fonts.google.com/specimen/Oswald
 
 #### Desktop
 
-Primary Navigation: 24/48 Oswald Bold
-Secondary Navigation 17/36 Oswald Regular Italic
-Search Placeholder: 14/24 Oswald Regular Italic
-Headline 94/94 Oswald Regular Italic
-Body Copy 18/24 Arial
+* Primary Navigation: 24/48 Oswald Bold
+* Secondary Navigation 17/36 Oswald Regular Italic
+* Search Placeholder: 14/24 Oswald Regular Italic
+* Headline 94/94 Oswald Regular Italic
+* Body Copy 18/24 Arial
 
 #### Mobile
 
-Primary Navigation: 20/40 Oswald Bold
-Secondary Navigation 14/28 Oswald Regular Italic
-Headline 32/39 Oswald Regular Italic
-Body Copy 14/21 Arial
+* Primary Navigation: 20/40 Oswald Bold
+* Secondary Navigation 14/28 Oswald Regular Italic
+* Headline 32/39 Oswald Regular Italic
+* Body Copy 14/21 Arial
 
 ### Color
 
