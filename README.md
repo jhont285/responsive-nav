@@ -22,7 +22,7 @@ Nice to haves:
 
 ## API
 
-* GET /api/nav.json - returns a JSON response representing the items in the nav.
+* GET /public/data/nav.json - returns a JSON response representing the items in the nav.
 
 ## Get Started
 
@@ -31,8 +31,8 @@ Nice to haves:
 
 ### Install the project locally
 ```
-git clone https://github.com/felipevila/basic-fe-challenge.git
-cd basic-fe-challenge
+git clone https://github.com/felipevila/responsive-nav.git
+cd responsive-nav
 npm install
 npm start
 ```
@@ -57,11 +57,22 @@ Measurements are specified in pixels. Dimensions are fluid unless specified.
 * On click outside of menu, menu and mask are hidden.
 
 ### Typography
+Font: https://fonts.google.com/specimen/Oswald
 
-Primary Navigation 21/48 Oswald Bold
-Secondary Navigation 16/48 Oswald Semi-Bold
-Headline (Desktop) 120/132 Oswald Bold
-Body Copy (Desktop) 24/36 Oswald Regular
+#### Desktop
+
+Primary Navigation: 24/48 Oswald Bold
+Secondary Navigation 17/36 Oswald Regular Italic
+Search Placeholder: 14/24 Oswald Regular Italic
+Headline 94/94 Oswald Regular Italic
+Body Copy 18/24 Arial
+
+#### Mobile
+
+Primary Navigation: 20/40 Oswald Bold
+Secondary Navigation 14/28 Oswald Regular Italic
+Headline 32/39 Oswald Regular Italic
+Body Copy 14/21 Arial
 
 ### Color
 
