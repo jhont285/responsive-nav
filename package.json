@@ -1,15 +1,14 @@
 {
-  "name": "NavExercise",
-  "description": "Exercise for candidates to complete where they will build a responsive nav driven from json",
-  "version": "0.1.1",
+  "name": "NavChallenge",
+  "description": "Exercise for interns to complete where they will build a responsive nav driven from json",
+  "version": "3.0",
   "authors": [
-    "Wes Hatch <whatch@hugeinc.com>",
-    "Karl Stanton <kstanton@hugeinc.com>"
+    "Felipe Vilá <felipe.vila@endava.com>"
   ],
-  "license": "© 2016 Huge. All Rights Reserved.",
-  "homepage": "https://github.com/hugeinc/NavExercise",
+  "license": "© 2019 Endava. All Rights Reserved.",
+  "homepage": "https://github.com/felipevila/responsive-nav",
   "bugs": {
-    "url": "https://github.com/hugeinc/NavExercise/issues"
+    "url": "https://github.com/felipevila/responsive-nav/issues"
   },
   "private": true,
   "scripts": {
