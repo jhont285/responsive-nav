@@ -11,20 +11,24 @@
 <body>
     <nav class="navbar">
         <div class="element-left">
-
             <img src="images/endava-logo.png" />
         </div>
 
         <div id="menu"></div>
 
         <div class="element-right">
-            <i class="fas fa-search fa-2x"></i>
+            <form class="form-group">
+                <input type="text" placeholder="Enter your search here..." class="form-text hide" id="input-text">
+                <button type="submit" class="btn" id="search-box"><i class="fas fa-search fa-2x"></i></button>
+            </form>
+
         </div>
 
     </nav>
 
 
     <main>
+        <div id="screen-orange" class="hide"></div>
         <section class="container background-endava">
             <h1 class="values-endava">Thoughtful, Open, Adaptable, Smart, Trusted</h1>
             <div class="orange-box"></div>
