@@ -19,30 +19,21 @@
   background-size: cover;
 }
 
-.darken-image {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.8);
-  width: 100%;
-}
-
-.background-endava, .darken-image {
-  height: 735px;
-}
-
 .values-endava {
   width: 60%;
   color: white;
   text-align: center;
   padding: 2rem;
   margin-bottom: 0.5rem;
+  margin-top: 5rem;
 }
 
 .orange-box {
   background-color: #ff3f10;
   padding: 0;
-  margin: 0;
   height: 1rem;
   width: 8rem;
+  margin-bottom: 7rem;
 }
 
 .values-endava, .orange-box {
@@ -87,10 +78,6 @@
 
   .text-principal, .values-endava-down {
     margin: 1rem 2rem;
-  }
-
-  .filter-endava {
-    filter: brightness(20%);
   }
 
 }
