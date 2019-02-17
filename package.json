@@ -1,7 +1,6 @@
 {
   "name": "NavChallenge",
   "description": "Exercise for interns to complete where they will build a responsive nav driven from json",
-  "version": "3.0",
   "authors": [
     "Felipe Vilá <felipe.vila@endava.com>"
   ],
@@ -19,5 +18,10 @@
     "express": "~4.2.0",
     "latest-version": "^3.1.0",
     "morgan": "~1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
   }
 }

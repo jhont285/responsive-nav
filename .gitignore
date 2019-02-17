@@ -5,3 +5,8 @@ node_modules/
 npm-debug.log
 yarn-error.log
 package-lock.json
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/responsive-nav.iml
+.idea/workspace.xml
