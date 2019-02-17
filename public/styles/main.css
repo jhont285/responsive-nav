@@ -44,6 +44,54 @@
   display: none;
 }
 
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff3f10;
+  color: white;
+  padding: 0;
+}
+
+.element-left {
+  padding: 0.4rem 1rem 0.6rem 1rem;
+}
+
+.element-right i {
+  padding: 1rem;
+}
+
+.element-left img {
+  height: 45px;
+  width: auto;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.55rem 2rem;
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: #ff3f10;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
 @media only screen and (max-width: 968px) {
 
   .container {

@@ -19,6 +19,16 @@ body {
   font-weight: normal;
 }
 
+.navbar-nav {
+  font-size: 24px;
+  line-height: 48px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  font-style: italic;
+}
+
 .values-endava-down {
   font-size: 32px;
   font-style: italic;
