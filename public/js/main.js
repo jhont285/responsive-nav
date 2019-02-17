@@ -62,7 +62,6 @@ async function buildNavBar() {
 
 
 function addListenerAllCode() {
-
   function hideSubMenu() {
     const menuDropdown = document.querySelector('#dropdown-content');
     const screenOrange = document.querySelector('#screen-orange');
@@ -76,8 +75,10 @@ function addListenerAllCode() {
 
   function searchBox(event) {
     hideSubMenu();
+
     const input = document.querySelector('#input-text');
     const divList = document.querySelector('#menu');
+
     if (!input.classList.contains('hide')) {
       input.classList.add('hide');
       divList.classList.remove('hide');
@@ -87,6 +88,7 @@ function addListenerAllCode() {
       divList.classList.add('hide');
     }
 
+    input.focus();
     event.preventDefault();
   }
 
