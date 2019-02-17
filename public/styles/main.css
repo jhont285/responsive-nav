@@ -1,1 +1,98 @@
 /* Styles here! */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-principal {
+  width: 968px;
+  margin: 2rem;
+  z-index: 1;
+}
+
+.background-endava {
+  background-image: url("../images/background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.darken-image {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+}
+
+.background-endava, .darken-image {
+  height: 735px;
+}
+
+.values-endava {
+  width: 60%;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.orange-box {
+  background-color: #ff3f10;
+  padding: 0;
+  margin: 0;
+  height: 1rem;
+  width: 8rem;
+}
+
+.values-endava, .orange-box {
+  z-index: 0;
+}
+
+.image-responsive, .values-endava-down {
+  display: none;
+}
+
+@media only screen and (max-width: 968px) {
+
+  .container {
+    align-items: flex-start;
+  }
+
+  .values-endava, .orange-box {
+    display: none;
+  }
+
+  .background-endava {
+    background-size: 100% 100%;
+  }
+
+  .image-responsive {
+    display: initial;
+    width: 100%;
+    height: auto;
+  }
+
+  .background-endava {
+    display: none;
+  }
+
+  .image-responsive, .values-endava-down {
+    display: initial;
+  }
+
+  .text-principal {
+    width: initial;
+  }
+
+  .text-principal, .values-endava-down {
+    margin: 1rem 2rem;
+  }
+
+  .filter-endava {
+    filter: brightness(20%);
+  }
+
+}
+
+

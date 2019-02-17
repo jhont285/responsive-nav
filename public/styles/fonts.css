@@ -1,1 +1,36 @@
 /* Fonts styles here! */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.text-principal {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.values-endava {
+  font-size: 94px;
+  font-style: italic;
+  line-height: 94px;
+  font-weight: normal;
+}
+
+.values-endava-down {
+  font-size: 32px;
+  font-style: italic;
+  line-height: 39px;
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 968px) {
+  .text-principal {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+
+}
