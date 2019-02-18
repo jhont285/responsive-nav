@@ -79,14 +79,10 @@ function addListenerAllCode() {
     const input = document.querySelector('#input-text');
     const divList = document.querySelector('#menu');
 
-    if (!input.classList.contains('hide')) {
-      input.classList.add('hide');
-      divList.classList.remove('hide');
-    } else {
-      input.classList.remove('hide');
-      input.value = '';
-      divList.classList.add('hide');
-    }
+    if (input.classList.contains('hide')) input.value = '';
+
+    input.classList.toggle('hide');
+    divList.classList.toggle('hide');
 
     input.focus();
     event.preventDefault();
@@ -97,23 +93,23 @@ function addListenerAllCode() {
     const itemNav = document.querySelector('#dropdown-toggle');
     const screenOrange = document.querySelector('#screen-orange');
 
-    if (itemNav.classList.contains('nav-link-hover')) itemNav.classList.remove('nav-link-hover');
-    else itemNav.classList.add('nav-link-hover');
+    itemNav.classList.toggle('nav-link-hover');
+    menuDropdown.classList.toggle('dropdown-menu');
+    screenOrange.classList.toggle('hide');
+    menuDropdown.classList.toggle('hide');
+  }
 
-    if (menuDropdown.classList.contains('dropdown-menu')) {
-      menuDropdown.classList.remove('dropdown-menu');
-      screenOrange.classList.add('hide');
-      menuDropdown.classList.add('hide');
-    } else {
-      menuDropdown.classList.add('dropdown-menu');
-      screenOrange.classList.remove('hide');
-      menuDropdown.classList.remove('hide');
-    }
+  function showMenu() {
+    const menuDropdown = document.querySelector('#menu');
+    const screenOrange = document.querySelector('#screen-orange');
+    screenOrange.classList.toggle('hide');
+    menuDropdown.classList.toggle('hide');
   }
 
   document.querySelector('#search-box').addEventListener('click', searchBox, false);
   document.querySelector('#screen-orange').addEventListener('click', hideSubMenu);
   document.querySelector('#dropdown-toggle').addEventListener('click', displaySubMenu);
+  document.querySelector('#hamburger-menu').addEventListener('click', showMenu);
 }
 
 
@@ -123,3 +119,23 @@ async function main() {
 }
 
 main();
+
+
+function myFunction(x) {
+  const menu = document.querySelector('#menu');
+  if (x.matches) {
+    menu.classList.add('hide');
+  } else {
+    switch (true) {
+      case !menu.classList.contains('hide'):
+        menu.classList.remove('hide');
+        break;
+      default:
+        console.log('sdfsd');
+    }
+  }
+}
+
+const x = window.matchMedia('(max-width: 968px)');
+myFunction(x);
+x.addListener(myFunction);

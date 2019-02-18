@@ -28,7 +28,7 @@ body {
 .dropdown-menu {
   font-size: 17px;
   font-style: italic;
-  line-height: 16px;
+  line-height: 36px;
   font-weight: normal;
 }
 
@@ -52,5 +52,14 @@ body {
     line-height: 21px;
   }
 
+  .navbar-nav {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .dropdown-menu {
+    font-size: 14px;
+    line-height: 28px;
+  }
 
 }
